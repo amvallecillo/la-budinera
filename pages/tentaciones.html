@@ -10,12 +10,12 @@
 </head>
 <body>
     <header class="header">
-        <h1 id="encabezado">La Budinera</h1>
-        <img class="header__logo" src="../assets/logo/logo.jpg" alt="logo">
-        <img class="header__instagram" src="../assets/logo/instagram.png" alt="instagram">
         <nav class="header__naveagacion"></nav>
+            <img class="header__logo" src="../assets/logo/logo.jpg" alt="logo">
+            <h1 id="encabezado">La Budinera</h1>
+            <img class="header__instagram" src="../assets/logo/instagram.png" alt="instagram">
         <!--Listas Desordenadas-->
-            <ul>
+            <ul class="header__menu">
                 <!--Enlaces Relativos-->
                 <li>
                     <a href="../index.html">Inicio</a>
@@ -33,6 +33,9 @@
                     <a href="../pages/contacto.html">Contacto</a>
                 </li>
             </ul>
+            <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
     </header>
     <main>
         <section>
@@ -53,12 +56,20 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__texto">Las Delicias estan aqui..</p>
-        <img class="footer__logo" src="../assets/logo/logo.jpg" alt="logo">
-        <h3 class="footer__contacto">Contacto</h3>
-        <p class="footer__textcontacto">Telefono</p>
-        <p class="footer__textcontacto">Correo</p>
-        <p class="footer__textcontacto">Ubicación</p>
-        <h3 class="footer__texto2">Seguinos en</h3>
+        <div class="footer__1">
+            <p class="footer__texto">Las Delicias estan aqui..</p>
+            <img class="footer__logo" src="assets/logo/logo.jpg" alt="logo">
+        </div>
+        <div class="footer__2">
+            <h3 class="footer__contacto">Contacto</h3>
+            <p class="footer__textcontacto">Telefono</p>
+            <p class="footer__textcontacto">Correo</p>
+            <p class="footer__textcontacto">Ubicación</p>
+        </div>
+        <div class="footer__3">
+            <h3 class="footer__texto2">Seguinos en</h3>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
 </body>
 </html>
