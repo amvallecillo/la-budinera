@@ -1,0 +1,192 @@
+@media (max-width: 600px) {
+    /*Header*/
+    .header__naveagacion{
+        position: relative;
+    }
+    .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__logo{
+        width: 60px;
+        height: 60px;
+        grid-column: 1/2;
+    }
+    #encabezado{
+        font-size: 25px;
+    }
+    .header__instagram{
+        display: none;
+    }
+    /*Main-INICIO*/
+    .principal__titulo{
+        grid-column: 1/9;
+        font-size: 15px;
+    }
+    .presentacion__titulo{
+        grid-column: 1/9;
+        font-size: 10px;
+    }
+    .presentacion__parrafo{
+        grid-column: 1/9;
+        font-size: 10px;
+    }
+    .boton__texto{
+        font-size: 12px;
+    }
+    /*Main-Cakes & Pies*/
+    .encabezado{
+        font-size: 20px;
+    }
+    .torta img{
+        width: 180px;
+    }
+    /*Footer*/
+    .footer__texto{
+        font-size: 15px;
+    }
+    .footer__contacto{
+        font-size: 15px;
+    }
+    .footer__textcontacto{
+        font-size: 10px;
+    }
+    .footer__texto2{
+        font-size: 15px;
+    }
+    .footer__logo{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (min-width: 601px) and (max-width:900px){
+    /*Header*/
+    .header__naveagacion{
+        position: relative;
+    }
+    .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__logo{
+        width: 80px;
+        height: 80px;
+        grid-column: 1/2;
+    }
+    #encabezado{
+        font-size: 35px;
+    }
+    /*Main-inicio*/
+    .principal__titulo{
+        grid-column: 4/9;
+        font-size: 18px;
+    }
+    .presentacion__titulo{
+        grid-column: 1/9;
+        font-size: 15px;
+    }
+    .presentacion__parrafo{
+        grid-column: 1/9;
+        font-size: 15px;
+    }
+    .boton__texto{
+        font-size: 18px;
+    }
+    /*Main-Cakes & Pies*/
+    .encabezado{
+        font-size: 30px;
+    }
+    .torta img{
+        width: 210px;
+    }
+    /*Footer*/
+    .footer__texto{
+        font-size: 18px;
+    }
+    .footer__contacto{
+        font-size: 18px;
+    }
+    .footer__textcontacto{
+        font-size: 13px;
+    }
+    .footer__texto2{
+        font-size: 18px;
+    }
+    .footer__logo{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (min-width: 901px) and (max-width:1024px){
+    /*Header*/
+    .header__naveagacion{
+        position: relative;
+    }
+    .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__logo{
+        width: 90px;
+        height: 90px;
+        grid-column: 1/2;
+    }
+    #encabezado{
+        font-size: 35px;
+    }
+    /*Main-inicio*/
+    .principal__titulo{
+        grid-column: 3/9;
+        font-size: 18px;
+    }
+    .presentacion__titulo{
+        grid-column: 1/9;
+        font-size: 15px;
+    }
+    .presentacion__parrafo{
+        grid-column: 1/9;
+        font-size: 15px;
+    }
+    .boton__texto{
+        font-size: 18px;
+    }
+    /*Main-Cakes & Pies*/
+    .encabezado{
+        font-size: 35px;
+    }
+    .torta img{
+        width: 250px;
+    }
+    /*Footer*/
+    .footer__texto{
+        font-size: 18px;
+    }
+    .footer__contacto{
+        font-size: 18px;
+    }
+    .footer__textcontacto{
+        font-size: 13px;
+    }
+    .footer__texto2{
+        font-size: 18px;
+    }
+    .footer__logo{
+        width: 80px;
+        height: 80px;
+    }
+}
