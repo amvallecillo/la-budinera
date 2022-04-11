@@ -214,6 +214,7 @@ p{
     font-weight: bold;
 }
 /*Flexbox*/
+
 /*Cakes & Pies*/
 .encabezado{
     text-align:center;
@@ -249,4 +250,88 @@ p{
 .tarta img{
     width: 280px;
 }
-/*GRIDS*/
+
+/*Tentaciones*/
+.encabezado{
+    text-align:center;
+    font-size: 40px;
+}
+.Budines{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.budines{
+    margin: 20px;
+}
+.budines img{
+    width: 280px;
+}
+.Alfajor{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#FFBCD1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.alfajor{
+    margin: 20px;
+}
+.alfajor img{
+    width: 280px;
+}
+/*Desayunos*/
+.desayuno-titulo{
+    display: flex;
+    justify-content: center;
+}
+.desayuno{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E2DEA9;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.desayuno p{
+    font-size: 16px;
+}
+.desayuno img{
+    width: 280px;
+}
+
+.desayunos-desayuno1{
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.desayunos-desayuno2{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+}
+.desayunos-desayuno3{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+}
+/*Contacto*/
+.solicitud{
+    margin-left: 20px;
+}
+.solicitud-titulo{
+    display: flex;
+}
+.encuadre{
+    margin-left: 0px;
+    display: flex;
+    justify-content: stretch;
+}
