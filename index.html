@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="../la-budinera/libs/bootstrap/css/bootstrap.min.css">
     <!--Logo-->
     <link rel="shortcut icon" href="assets/logo/logo.jpg" type="image/x-icon">
     <!--Hoja de Estilos-->
@@ -20,13 +22,53 @@
 </head>
 <body>
     <header class="header">
+         <!--Navbar Bootstrap-->
+         <nav class="navbar navbar-expand-lg navbar-light bg-$red-400">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../la-budinera/index.html">
+                  <img src="../la-budinera/assets/logo/logo.jpg" alt="logo" width="80px" height="80px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cakes & Pies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../la-budinera/pages/tortas.html">Cakes</a></li>
+                      <li><a class="dropdown-item" href="../la-budinera/pages/tortas.html">Pies</a></li>
+                    </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tentaciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../la-budinera/pages/tentaciones.html">Budines</a></li>
+                      <li><a class="dropdown-item" href="../la-budinera/pages/tentaciones.html">Alfajores</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../la-budinera/pages/desayunos.html">Desayunos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../la-budinera/pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1 id="encabezado">La Budinera</h1>
+          <img class="header__instagram" src="../la-budinera/assets/logo/instagram.png" alt="instagram">
+        <!--Bloqueo
         <nav class="header__naveagacion"></nav>
             <img class="header__logo" src="assets/logo/logo.jpg" alt="logo">
             <h1 id="encabezado">La Budinera</h1>
             <img class="header__instagram" src="assets/logo/instagram.png" alt="instagram">
-        <!--Listas Desordenadas-->
             <ul class="header__menu">
-                <!--Enlaces Relativos-->
                 <li>
                     <a href="../la-budinera/index.html">Inicio</a>
                 </li>
@@ -46,13 +88,60 @@
             <div class="menu-bar">
                 <i class="fa-solid fa-bars"></i>
             </div>
+        -->
     </header>
+    <main>
+    <!--Slider-->
+    <div class="container my-4">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../la-budinera/assets/images/Cheescake.jpg" class="d-block w-100" alt="Cheescake">
+            </div>
+            <div class="carousel-item">
+                <img src="../la-budinera/assets/images/Desayuno 3.jpg" class="d-block w-100" alt="Desayuno">
+            </div>
+            <div class="carousel-item">
+                <img src="../la-budinera/assets/images/Alfajores de nuez.jpg" class="d-block w-100" alt="Alfajor">
+            </div>
+            <div class="carousel-item">
+                <img src="../la-budinera/assets/images/Lemon pie 2.jpg" class="d-block w-100" alt="Lemon Pie">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    <!--Fin Slider-->
+        <div>
+            <article class="presentacion">
+                <h3 class="presentacion__titulo">
+                    <a class="presentacion__enlace" href="pages/tortas.html">Cakes & Pies</a>
+                    <a class="presentacion__enlace" href="pages/tentaciones.html">Tentaciones</a>
+                    <a class="presentacion__enlace" href="pages/desayunos.html">Desayunos</a>
+                </h3>
+                <p class="presentacion__parrafo">
+                    Las delicias y recetas de todo el mundo, traidas desde Europa, agregando todo lo que ya conoces de Argentina y Latinoamerica.
+                </p>
+                <a class="boton" href="pages/contacto.html">
+                    <span class="boton__texto">Pedilas</span>
+                </a>
+            </article>
+        </div>
+    </div>
+    </main>
+    <!--Bloqueo
     <main class="principal">
         <section class="principal__titulo">
             <h2>¿Queres comer algo rico?</h2>
         </section>
         <section class="contenedor">
-            <article class="tarjeta"><!--Bloque 1-->
+            <article class="tarjeta">
                 <a class="tarjeta__contencion" href="#">
                     <img class="tarjeta__imagen1" src="assets/images/Desayuno 3.jpg" alt="desayuno3">
                     <img class="tarjeta__imagen2" src="assets/images/Cheescake.jpg" alt="Cheescake">
@@ -69,12 +158,13 @@
                 <p class="presentacion__parrafo">
                     Las delicias y recetas de todo el mundo, traidas desde Europa, agregando todo lo que ya conoces de Argentina y Latinoamerica.
                 </p>
-                <a class="boton" href="pages/contacto.html"><!--Bloque 2-->
+                <a class="boton" href="pages/contacto.html">
                     <span class="boton__texto">Pedilas</span>
                 </a>
             </article>
         </section>
     </main>
+    -->
     <footer class="footer">
         <div class="footer__1">
             <p class="footer__texto">Las Delicias estan aqui..</p>
@@ -91,5 +181,6 @@
             <i class="fa-brands fa-instagram"></i>
         </div>
     </footer>
+    <script src="../la-budinera/libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

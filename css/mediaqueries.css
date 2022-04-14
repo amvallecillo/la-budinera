@@ -19,6 +19,7 @@
     }
     #encabezado{
         font-size: 25px;
+        grid-column: 4/6;
     }
     .header__instagram{
         display: none;
@@ -115,6 +116,7 @@
     }
     #encabezado{
         font-size: 35px;
+        grid-column: 4/6;
     }
     /*Main-inicio*/
     .principal__titulo{

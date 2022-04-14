@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <!--Logo-->
     <link rel="shortcut icon" href="../assets/logo/logo.jpg" type="image/x-icon">
     <!--Hoja de Estilos-->
@@ -16,13 +18,53 @@
 </head>
 <body>
     <header class="header">
+        <!--Navbar Bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-$red-400">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                  <img src="../assets/logo/logo.jpg" alt="logo" width="80px" height="80px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cakes & Pies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/tortas.html">Cakes</a></li>
+                      <li><a class="dropdown-item" href="../pages/tortas.html">Pies</a></li>
+                    </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tentaciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/tentaciones.html">Budines</a></li>
+                      <li><a class="dropdown-item" href="../pages/tentaciones.html">Alfajores</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/desayunos.html">Desayunos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1 id="encabezado">La Budinera</h1>
+          <img class="header__instagram" src="../assets/logo/instagram.png" alt="instagram">
+        <!--Bloqueo
         <nav class="header__naveagacion"></nav>
             <img class="header__logo" src="../assets/logo/logo.jpg" alt="logo">
             <h1 id="encabezado">La Budinera</h1>
             <img class="header__instagram" src="../assets/logo/instagram.png" alt="instagram">
-        <!--Listas Desordenadas-->
             <ul class="header__menu">
-                <!--Enlaces Relativos-->
                 <li>
                     <a href="../index.html">Inicio</a>
                 </li>
@@ -42,7 +84,71 @@
             <div class="menu-bar">
                 <i class="fa-solid fa-bars"></i>
             </div>
+        -->
     </header>
+    <main>
+        <section class="container-fluid border">
+            <h2 class="encabezado">Budines</h2>
+            <div class="row">
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/crumble de manzana.jpg" alt="">
+                    <p>Zanahoria</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/IMG-20220310-WA0073.jpg" alt="">
+                    <p>Banana</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/IMG-20220310-WA0076.jpg" alt="">
+                    <p>Limon</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2"src="../assets/images/IMG-20220310-WA0077.jpg" alt="">
+                    <p>Limon y Frutos Rojos</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/IMG-20220310-WA0079.jpg" alt="">
+                    <p>Vainilla con chips de Chocolate</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/IMG-20220310-WA0077.jpg" alt="">
+                    <p>Mandarina</p>
+                </div>
+
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/linzer torta.jpg" alt="">
+                    <p>Marmolado</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="container-fluid border">
+            <h2 class="encabezado">Alfajores</h2>
+            <div class="row">              
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/alfajor-triple.jpg" alt="">
+                    <p>Chocolate</p>
+                </div>
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/Tartas frutales.jpg" alt="">
+                    <p>Fruta</p>
+                </div>
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/budin-ingles.jpg" alt="">
+                    <p>Dulce de Leche</p>
+                </div>
+                <div class="item col-6 col-md-4 col-lg-4">
+                    <img class="w-75 p-2" src="../assets/images/crumble de manzana.jpg" alt="">
+                    <p>Membrillo</p>
+                </div>
+            </div>
+        </section>
+    <!--Bloque Parcial
     <main>
         <section>
             <h2 class="encabezado">Budines</h2>
@@ -106,6 +212,7 @@
             </div>
         </section>
     </main>
+    -->
     <footer class="footer">
         <div class="footer__1">
             <p class="footer__texto">Las Delicias estan aqui..</p>
@@ -122,5 +229,6 @@
             <i class="fa-brands fa-instagram"></i>
         </div>
     </footer>
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
