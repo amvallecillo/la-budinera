@@ -152,6 +152,12 @@ p{
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 }
+.carrusel .carousel-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
 /*Bloque 1*/
 
 .tarjeta{
@@ -203,6 +209,9 @@ p{
 }
 .presentacion__enlace{
     color: black;
+}
+.presentacion__enlace:hover{
+    color: gray;
 }
 .presentacion__parrafo{
     margin-bottom: 18px;
@@ -278,6 +287,7 @@ p{
 .tarta img{
     width: 280px;
 }
+
 
 /*Tentaciones*/
 .encabezado{
@@ -363,4 +373,7 @@ p{
     margin-left: 0px;
     display: flex;
     justify-content: stretch;
+}
+.email:invalid{
+    background-color: #FFF89A;
 }
