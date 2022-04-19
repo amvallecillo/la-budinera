@@ -16,10 +16,11 @@
         width: 60px;
         height: 60px;
         grid-column: 1/2;
+        display: none;
     }
     #encabezado{
         font-size: 25px;
-        grid-column: 4/6;
+        grid-column: 3/6;
     }
     .header__instagram{
         display: none;
@@ -35,10 +36,10 @@
     }
     .presentacion__parrafo{
         grid-column: 1/9;
-        font-size: 10px;
+        font-size: 12px;
     }
     .boton__texto{
-        font-size: 12px;
+        font-size: 13px;
     }
     /*Main-Cakes & Pies*/
     .encabezado{
@@ -113,14 +114,15 @@
         width: 80px;
         height: 80px;
         grid-column: 1/2;
+        display: none;
     }
     #encabezado{
         font-size: 35px;
-        grid-column: 4/6;
+        grid-column: 3/6;
     }
     /*Main-inicio*/
     .principal__titulo{
-        grid-column: 4/9;
+        grid-column: 1/12;
         font-size: 18px;
     }
     .presentacion__titulo{
@@ -207,13 +209,15 @@
         width: 90px;
         height: 90px;
         grid-column: 1/2;
+        display: none;
     }
     #encabezado{
         font-size: 35px;
+        grid-column: 4/7;
     }
     /*Main-inicio*/
     .principal__titulo{
-        grid-column: 3/9;
+        grid-column: 1/12;
         font-size: 18px;
     }
     .presentacion__titulo{
