@@ -1,0 +1,151 @@
+//Declaración de Variables
+$encabezado-alineacion: center;
+$encabezado-tamaño: 40px;
+
+/*Mixins con Parametros*/
+@mixin ubicacion ($display,$justify-content,$flex-wrap) {
+    display: $display;
+    justify-content: $justify-content;
+    flex-wrap: $flex-wrap;
+}
+
+/*Cakes & Pies*/
+.encabezado{
+    text-align:$encabezado-alineacion;
+    font-size: $encabezado-tamaño;
+}
+/*Mixins con Parametros*/
+.Tortas{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: azure;
+    width: 100%;
+    @include ubicacion(flex, flex-start, wrap)
+}
+.torta{
+    margin: 20px;
+    img{
+        width: 280px;
+    }
+}
+/*Mixins con Parametros*/
+.Tartas{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#FFBCD1;
+    width: 100%;
+    @include ubicacion(flex, flex-start, wrap)
+}
+.tarta{
+    margin: 20px;
+    img{
+        width: 280px;
+    }
+}
+
+/*Tentaciones*/
+.encabezado{
+    text-align:$encabezado-alineacion;
+    font-size: $encabezado-tamaño;
+}
+/*Mixins con Parametros*/
+
+.Budines{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    width: 100%;
+    @include ubicacion(flex, flex-start, wrap)
+}
+.budines{
+    margin: 20px;
+    img{
+        width: 280px;
+    }
+}
+/*Maps*/
+$caracterista-Alfajor:(
+    'margen arriba': 30px,
+    'margen abajo': 20px,
+    'color de fondo': #FFBCD1,
+);
+.Alfajor{
+    margin-top: map-get($map: $caracterista-Alfajor, $key: 'margen arriba' );
+    margin-bottom: map-get($map: $caracterista-Alfajor, $key: 'margen abajo' );
+    background-color: map-get($map: $caracterista-Alfajor , $key: 'color de fondo' );
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.alfajor{
+    margin: 20px;
+    img{
+        width: 280px;
+    }
+}
+
+/*Desayunos*/
+.desayuno-titulo{
+    display: flex;
+    justify-content: center;
+}
+/*Maps 2*/
+$estilo-desayuno: (
+    'margen arriba': 20px,
+    'margen abajo': 20px,
+    'color de fondo': #E2DEA9,
+);
+
+.desayuno{
+    margin-top: map-get($map: $estilo-desayuno, $key: 'margen arriba' );
+    margin-bottom: map-get($map: $estilo-desayuno, $key: 'margen abajo' );
+    background-color: map-get($map: $estilo-desayuno, $key: 'color de fondo' );
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    p{
+        font-size: 16px;
+    }
+    img{
+        width: 280px;
+    }
+}
+.desayunos-desayuno1{
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.desayunos-desayuno2{
+    @extend .desayunos-desayuno1;
+    grid-row: 2/3;
+}
+.desayunos-desayuno3{
+    @extend .desayunos-desayuno1;
+    grid-row: 3/4;
+}
+/*Regla EACH*/
+$color-texto: (
+    color-1:  rgb(210, 56, 17),
+    color-2:  rgb(105, 24, 3),
+    color-3:  rgb(136, 68, 51),
+);
+@each $color, $valor in $color-texto {
+    .texto-#{$color} {
+        color: $valor;
+    }
+}
+/*Regla Each 2*/
+$redes: (
+    Instagram: #FAF5E4,
+    Facebook: #035397,
+    Email: #FFF56D,
+);
+@each $red, $color in $redes {
+    btn--#{$red}{
+        background-color: $color;
+    }
+}
+
