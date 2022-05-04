@@ -10,6 +10,11 @@ $encabezado-tamaño: 40px;
 }
 
 /*Cakes & Pies*/
+.fondo-torta{
+    background-color: $color-de-fondo;
+}
+
+
 .encabezado{
     text-align:$encabezado-alineacion;
     font-size: $encabezado-tamaño;
@@ -49,6 +54,9 @@ $encabezado-tamaño: 40px;
     font-size: $encabezado-tamaño;
 }
 /*Mixins con Parametros*/
+.fondo-budines{
+background-color: $color-de-fondo;
+}
 
 .Budines{
     margin-top: 30px;
@@ -87,6 +95,9 @@ $caracterista-Alfajor:(
 }
 
 /*Desayunos*/
+.fondo-desayuno{
+    background-color:$color-de-fondo;
+}
 .desayuno-titulo{
     display: flex;
     justify-content: center;

@@ -13,8 +13,6 @@
     <link rel="shortcut icon" href="./assets/logo/logo.jpg" type="image/x-icon">
     <!--Hoja de Estilos-->
     <link rel="stylesheet" href="./css/indexcss.css">
-    <!--Mediaqueries-->
-    <link rel="stylesheet" href="./css/mediaqueries.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/725b6c240f.js" crossorigin="anonymous"></script>
     <!--Animate.css-->
@@ -62,9 +60,11 @@
             </div>
           </nav>
           <h1 id="encabezado">La Budinera</h1>
-          <img class="header__instagram" src="./assets/logo/instagram.png" alt="instagram">
+          <a class="header__instagram" href="https://www.instagram.com/labudinera1/">
+            <img class="header__instagram" src="./assets/logo/instagram.png" alt="instagram">
+          </a>
     </header>
-    <main>
+    <main class="fondo">
         <!--Slider-->
         <div class="container my-4">
             <div class="carrusel">
@@ -93,6 +93,7 @@
                 </button>
             </div>
             </div>
+          </div>
     <!--Fin Slider-->
         <div class="principal">
             <section class="principal__titulo">
@@ -112,14 +113,13 @@
                     <a class="btn btn-danger" href="./pages/desayunos.html">Desayunos</a>
                 </article>
                 <p class="presentacion__parrafo">
-                  La reposteria de todo el mundo la tenes en Mendoza, traida desde Europa y agregando todo lo que ya conoces de Argentina y Latinoamerica.
+                  La mejor pastelería con recetas de todo el mundo la tenes en Mendoza, encontra tortas, tartas, budines, alfajores y los mejores desayunos para regalar.
                 </p>
                 <a class="boton" href="./pages/contacto.html">
                     <span class="boton__texto">Pedilas</span>
                 </a>
             </section>
         </div>
-    </div>
     </main>
     <footer class="footer">
         <div class="footer__1">
@@ -128,13 +128,15 @@
         </div>
         <div class="footer__2">
             <h3 class="footer__contacto">Contacto</h3>
-            <p class="footer__textcontacto">Telefono</p>
-            <p class="footer__textcontacto">Correo</p>
-            <p class="footer__textcontacto">Ubicación</p>
+            <p class="footer__textcontacto">Whatsapp:2615584382</p>
+            <p class="footer__textcontacto">hacetupedido@labudinera.com </p>
+            <p class="footer__textcontacto">Ernesto Sabato 2050, Guaymallen. Mendoza</p>
         </div>
         <div class="footer__3">
             <h3 class="footer__texto2">Seguinos en</h3>
-            <i class="fa-brands fa-instagram"></i>
+            <a class="header__instagram" href="https://www.instagram.com/labudinera1/">
+              <i class="fa-brands fa-instagram"></i>
+          </a>  
         </div>
     </footer>
     <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
