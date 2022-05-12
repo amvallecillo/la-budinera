@@ -1,11 +1,12 @@
 //Variables Generales
-$ancho-tarjeta: 100%;
-$borderadio-tarjeta: 20px;
+$ancho-tarjeta: 33.3%;
+$borderadio-tarjeta: 10px;
 
 /*Inicio*/
 /*Metodologia BEM*/
 .fondo{
     background-color: $color-de-fondo;
+    border: solid 1px $color-de-fondo;
 }
 
 .carrusel .carousel-item{
@@ -20,36 +21,37 @@ $borderadio-tarjeta: 20px;
     grid-template-rows: repeat(7,1fr);
 }
 .principal__titulo{
-    font-size: 20px;
     grid-column: 1/6;
     grid-row: 1/2;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 /*Bloque 1*/
 
-.tarjeta{
+.demostracion{
+    width: auto;
     grid-column: 1/13;
     grid-row: 2/5;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 }
-.tarjeta__contencion{
-    background-color: #F3F0D7;
+.demostracion__contencion{
     grid-column: 1/9;
     grid-row: 1/9;
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
-.tarjeta__imagen1{
+.demostracion__imagen1{
     width: $ancho-tarjeta;
     border-radius: $borderadio-tarjeta;
 }
-.tarjeta__imagen2{
+.demostracion__imagen2{
     width: $ancho-tarjeta;
     border-radius: $borderadio-tarjeta;
 }
-.tarjeta__imagen3{
+.demostracion__imagen3{
     width: $ancho-tarjeta;
     border-radius:$borderadio-tarjeta;
 }

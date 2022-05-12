@@ -1,6 +1,7 @@
 //Declaración de Variables
 $encabezado-alineacion: center;
 $encabezado-tamaño: 40px;
+$borde-cards: solid 2px black;
 
 /*Mixins con Parametros*/
 @mixin ubicacion ($display,$justify-content,$flex-wrap) {
@@ -35,17 +36,17 @@ $encabezado-tamaño: 40px;
 }
 /*Mixins con Parametros*/
 .Tartas{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    border: $borde-cards;
     background-color:#FFBCD1;
-    width: 100%;
-    @include ubicacion(flex, flex-start, wrap)
 }
-.tarta{
-    margin: 20px;
-    img{
-        width: 280px;
-    }
+.imagen{
+    width: 1000px;
+    height: 300px;
+}
+.Tarta__nombre{
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 /*Tentaciones*/

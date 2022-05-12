@@ -126,6 +126,7 @@
 /*Metodologia BEM*/
 .fondo {
   background-color: #CEE5D0;
+  border: solid 1px #CEE5D0;
 }
 
 .carrusel .carousel-item {
@@ -142,15 +143,15 @@
 }
 
 .principal__titulo {
-  font-size: 20px;
   grid-column: 1/6;
   grid-row: 1/2;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 /*Bloque 1*/
-.tarjeta {
+.demostracion {
+  width: auto;
   grid-column: 1/13;
   grid-row: 2/5;
   display: grid;
@@ -158,26 +159,27 @@
   grid-template-rows: repeat(8, 1fr);
 }
 
-.tarjeta__contencion {
-  background-color: #F3F0D7;
+.demostracion__contencion {
   grid-column: 1/9;
   grid-row: 1/9;
   display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-.tarjeta__imagen1 {
-  width: 100%;
-  border-radius: 20px;
+.demostracion__imagen1 {
+  width: 33.3%;
+  border-radius: 10px;
 }
 
-.tarjeta__imagen2 {
-  width: 100%;
-  border-radius: 20px;
+.demostracion__imagen2 {
+  width: 33.3%;
+  border-radius: 10px;
 }
 
-.tarjeta__imagen3 {
-  width: 100%;
-  border-radius: 20px;
+.demostracion__imagen3 {
+  width: 33.3%;
+  border-radius: 10px;
 }
 
 .presentacion {
@@ -272,20 +274,19 @@
 
 /*Mixins con Parametros*/
 .Tartas {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  border: solid 2px black;
   background-color: #FFBCD1;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
-.tarta {
-  margin: 20px;
+.imagen {
+  width: 1000px;
+  height: 300px;
 }
-.tarta img {
-  width: 280px;
+
+.Tarta__nombre {
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 /*Tentaciones*/
