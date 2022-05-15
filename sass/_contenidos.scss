@@ -19,6 +19,7 @@ $borde-cards: solid 2px black;
 .encabezado{
     text-align:$encabezado-alineacion;
     font-size: $encabezado-tamaño;
+    color: $color-encabezado;
 }
 /*Mixins con Parametros*/
 .Tortas{
@@ -99,15 +100,11 @@ $caracterista-Alfajor:(
 .fondo-desayuno{
     background-color:$color-de-fondo;
 }
-.desayuno-titulo{
-    display: flex;
-    justify-content: center;
-}
 /*Maps 2*/
 $estilo-desayuno: (
     'margen arriba': 20px,
-    'margen abajo': 20px,
-    'color de fondo': #E2DEA9,
+    'margen abajo': 0px,
+    'color de fondo': $color-de-fondo,
 );
 
 .desayuno{
@@ -116,48 +113,37 @@ $estilo-desayuno: (
     background-color: map-get($map: $estilo-desayuno, $key: 'color de fondo' );
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
     p{
-        font-size: 16px;
+        font-size: 20px;
+        color: black;
     }
     img{
-        width: 280px;
+        width: 50%;
     }
 }
 .desayunos-desayuno1{
     display: flex;
-    grid-column: 1/4;
-    grid-row: 1/2;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    grid-column: 1/13;
+    grid-row: 1/5;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: $color-fondo-tarjeta;
 }
 .desayunos-desayuno2{
     @extend .desayunos-desayuno1;
-    grid-row: 2/3;
+    grid-row: 5/9;
 }
 .desayunos-desayuno3{
     @extend .desayunos-desayuno1;
-    grid-row: 3/4;
+    grid-row: 9/13;
 }
-/*Regla EACH*/
-$color-texto: (
-    color-1:  rgb(210, 56, 17),
-    color-2:  rgb(105, 24, 3),
-    color-3:  rgb(136, 68, 51),
-);
-@each $color, $valor in $color-texto {
-    .texto-#{$color} {
-        color: $valor;
-    }
+.desayuno-texto{
+    margin-left: 10px;
 }
-/*Regla Each 2*/
-$redes: (
-    Instagram: #FAF5E4,
-    Facebook: #035397,
-    Email: #FFF56D,
-);
-@each $red, $color in $redes {
-    btn--#{$red}{
-        background-color: $color;
-    }
-}
-

@@ -252,7 +252,6 @@
 .encabezado {
   text-align: center;
   font-size: 40px;
-  color: blue;
 }
 
 /*Mixins con Parametros*/
@@ -341,48 +340,71 @@
   background-color: #CEE5D0;
 }
 
+.desayuno-titulo {
+  display: flex;
+  justify-content: center;
+  color: #035397;
+}
+
 /*Maps 2*/
 .desayuno {
   margin-top: 20px;
-  margin-bottom: 0px;
-  background-color: #CEE5D0;
+  margin-bottom: 20px;
+  background-color: #E2DEA9;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 .desayuno p {
-  font-size: 20px;
-  color: black;
+  font-size: 16px;
 }
 .desayuno img {
-  width: 50%;
+  width: 280px;
 }
 
 .desayunos-desayuno1, .desayunos-desayuno3, .desayunos-desayuno2 {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  grid-column: 1/13;
-  grid-row: 1/5;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: solid 2px black;
-  border-radius: 10px;
-  background-color: white;
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .desayunos-desayuno2 {
-  grid-row: 5/9;
+  grid-row: 2/3;
 }
 
 .desayunos-desayuno3 {
-  grid-row: 9/13;
+  grid-row: 3/4;
 }
 
-.desayuno-texto {
-  margin-left: 10px;
+/*Regla EACH*/
+.texto-color-1 {
+  color: rgb(210, 56, 17);
+}
+
+.texto-color-2 {
+  color: rgb(105, 24, 3);
+}
+
+.texto-color-3 {
+  color: rgb(136, 68, 51);
+}
+
+/*Regla Each 2*/
+btn--Instagram {
+  background-color: #FAF5E4;
+}
+
+btn--Facebook {
+  background-color: #035397;
+}
+
+btn--Email {
+  background-color: #FFF56D;
+}
+
+.infusion {
+  background-color: #035397;
 }
 
 @media (max-width: 600px) {
@@ -440,7 +462,7 @@
 
   /*Main-Cakes & Pies*/
   .encabezado {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .torta img {
@@ -468,12 +490,9 @@
   .desayuno p {
     font-size: 10px;
   }
-  .desayuno img {
-    width: 250px;
-  }
 
-  .desayuno-texto h4 {
-    font-size: 15px;
+  .desayuno img {
+    width: 180px;
   }
 
   /*Main-Contacto*/
@@ -588,14 +607,11 @@
 
   /*Main-Desayunos*/
   .desayuno p {
-    font-size: 15px;
-  }
-  .desayuno img {
-    width: 400px;
+    font-size: 12px;
   }
 
-  .desayuno-texto h4 {
-    font-size: 20px;
+  .desayuno img {
+    width: 210px;
   }
 
   /*Main-Contacto*/
@@ -710,14 +726,11 @@
 
   /*Main-Desayunos*/
   .desayuno p {
-    font-size: 15px;
-  }
-  .desayuno img {
-    width: 500px;
+    font-size: 14px;
   }
 
-  .desayuno-texto h4 {
-    font-size: 20px;
+  .desayuno img {
+    width: 250px;
   }
 
   /*Footer*/
@@ -799,4 +812,4 @@ p {
   background-color: #FFF89A;
 }
 
-/*# sourceMappingURL=indexcss.css.map */
+/*# sourceMappingURL=indecss.css.map */

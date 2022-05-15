@@ -43,7 +43,7 @@
     }
     /*Main-Cakes & Pies*/
     .encabezado{
-        font-size: 20px;
+        font-size: 22px;
     }
     .torta img{
         width: 180px;
@@ -62,12 +62,17 @@
         width: 180px;
     }
     /*Main-Desayunos*/
-    .desayuno p{
-        font-size: 10px;
+    .desayuno {
+        p{font-size: 10px;
+        }
+        img{width: 250px;
+        }
     }
-    .desayuno img{
-        width: 180px;
+    .desayuno-texto{
+        h4{font-size: 15px;}
     }
+        
+
     /*Main-Contacto*/
     .solicitud-titulo{
         font-size: 20px;
@@ -157,11 +162,14 @@
         width: 210px;
     }
     /*Main-Desayunos*/
-    .desayuno p{
-        font-size: 12px;
+    .desayuno {
+        p{font-size: 15px;
+        }
+        img{width: 400px;
+        }
     }
-    .desayuno img{
-        width: 210px;
+    .desayuno-texto{
+        h4{font-size: 20px;}
     }
     /*Main-Contacto*/
     .solicitud-titulo{
@@ -252,11 +260,14 @@
         width: 250px;
     }
     /*Main-Desayunos*/
-    .desayuno p{
-        font-size: 14px;
+    .desayuno {
+        p{font-size: 15px;
+        }
+        img{width: 500px;
+        }
     }
-    .desayuno img{
-        width: 250px;
+    .desayuno-texto{
+        h4{font-size: 20px;}
     }
     /*Footer*/
     .footer__texto{
