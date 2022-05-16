@@ -43,23 +43,44 @@
     }
     /*Main-Cakes & Pies*/
     .encabezado{
-        font-size: 22px;
+        font-size: 25px;
     }
-    .torta img{
-        width: 180px;
+    .torta {
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-size: 15px;
+        }
     }
-    .tarta img{
-        width: 180px;
+    .tarta {
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-size: 15px;
+        }
     }
     /*Main-Tentaciones*/
-    .encabezado{
-        font-size: 20px;
+    .budines {
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-size: 15px;
+        }
     }
-    .budines img{
-        width: 180px;
-    }
-    .alfajor img{
-        width: 180px;
+    .alfajor {
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-size: 15px;
+        }
     }
     /*Main-Desayunos*/
     .desayuno {
@@ -145,21 +166,42 @@
     .encabezado{
         font-size: 30px;
     }
-    .torta img{
-        width: 210px;
+    .torta {
+        img{
+            width: 280px;
+            height: 280px;
+        }
+        p{
+            font-size: 17px;
+        }
     }
-    .tarta img{
-        width: 210px;
+    .tarta {
+        img{
+            width: 280px;
+            height: 280px;
+        }
+        p{
+            font-size: 17px;
+        }
     }
     /*Main-Tentaciones*/
-    .encabezado{
-        font-size: 30px;
+    .budines {
+        img{
+            width: 280px;
+            height: 280px;
+        }
+        p{
+            font-size: 17px;
+        }
     }
-    .budines img{
-        width: 210px;
-    }
-    .alfajor img{
-        width: 210px;
+    .alfajor {
+        img{
+            width: 280px;
+            height: 280px;
+        }
+        p{
+            font-size: 17px;
+        }
     }
     /*Main-Desayunos*/
     .desayuno {
@@ -239,25 +281,46 @@
     .boton__texto{
         font-size: 18px;
     }
-    /*Main-Cakes & Pies*/
-    .encabezado{
-        font-size: 35px;
+   /*Main-Cakes & Pies*/
+   .encabezado{
+    font-size: 35px;
     }
-    .torta img{
-        width: 250px;
+    .torta {
+        img{
+            width: 310px;
+            height: 310px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
-    .tarta img{
-        width: 250px;
+    .tarta {
+        img{
+            width: 310px;
+            height: 310px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
     /*Main-Tentaciones*/
-    .encabezado{
-        font-size: 35px;
+    .budines {
+        img{
+            width: 310px;
+            height: 310px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
-    .budines img{
-        width: 250px;
-    }
-    .alfajor img{
-        width: 250px;
+    .alfajor {
+        img{
+            width: 310px;
+            height: 310px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
     /*Main-Desayunos*/
     .desayuno {

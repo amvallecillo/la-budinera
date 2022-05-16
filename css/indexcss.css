@@ -9,7 +9,7 @@
   grid-template-columns: repeat(8, 1fr);
   align-items: center;
   /*Gradientes*/
-  background: linear-gradient(to right, #FF7878, #F3F0D7);
+  background: linear-gradient(to right, #F6E7D8, #C65D7B);
 }
 
 /*Animación*/
@@ -125,8 +125,8 @@
 /*Inicio*/
 /*Metodologia BEM*/
 .fondo {
-  background-color: #CEE5D0;
-  border: solid 1px #CEE5D0;
+  background-color: #F6E7D8;
+  border: solid 1px #F6E7D8;
 }
 
 .carrusel .carousel-item {
@@ -243,89 +243,103 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-/*Mixins con Parametros*/
-/*Cakes & Pies*/
-.fondo-torta {
-  background-color: #CEE5D0;
-}
-
+/*Encabezado para Todas las Paginas*/
 .encabezado {
   text-align: center;
   font-size: 40px;
-  color: blue;
+  color: #874356;
+  margin-top: 0px;
+  background-color: #F68989;
+}
+
+/*Cakes & Pies*/
+/*Mixins con Parametros*/
+.fondo-torta {
+  background-color: #F6E7D8;
 }
 
 /*Mixins con Parametros*/
-.Tortas {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  background-color: azure;
+.Tortas, .Tartas {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #F6E7D8;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.torta {
+.torta, .tarta {
   margin: 20px;
+  border: solid 1px black;
+  border-radius: 4px;
+  background-color: #F6E7D8;
 }
-.torta img {
-  width: 280px;
+.torta img, .tarta img {
+  width: 350px;
+  height: 350px;
+}
+.torta p, .tarta p {
+  font-size: 20px;
+  color: #F68989;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-/*Mixins con Parametros*/
-.Tartas {
-  border: solid 2px black;
-  background-color: #FFBCD1;
-}
-
-.imagen {
-  width: 1000px;
-  height: 300px;
-}
-
-.Tarta__nombre {
-  color: black;
+.torta-texto, .tarta-texto {
   display: flex;
   justify-content: center;
-}
-
-/*Tentaciones*/
-.encabezado {
-  text-align: center;
-  font-size: 40px;
+  background-color: white;
 }
 
 /*Mixins con Parametros*/
+/*Tentaciones*/
+/*Mixins con Parametros*/
 .fondo-budines {
-  background-color: #CEE5D0;
+  background-color: #F6E7D8;
 }
 
 .Budines {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  background-color: aqua;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #F6E7D8;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .budines {
   margin: 20px;
+  border: solid 1px black;
+  border-radius: 4px;
+  background-color: #F6E7D8;
 }
 .budines img {
-  width: 280px;
+  width: 350px;
+  height: 350px;
+}
+.budines p {
+  font-size: 20px;
+  color: #F68989;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.budin-texto {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 
 /*Maps*/
 .Alfajor {
   margin-top: 30px;
-  margin-bottom: 20px;
-  background-color: #FFBCD1;
+  margin-bottom: 0px;
+  background-color: #F6E7D8;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -333,19 +347,26 @@
   margin: 20px;
 }
 .alfajor img {
-  width: 280px;
+  width: 350px;
+  height: 350px;
+}
+.alfajor p {
+  font-size: 20px;
+  color: #F68989;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 /*Desayunos*/
 .fondo-desayuno {
-  background-color: #CEE5D0;
+  background-color: #F6E7D8;
 }
 
 /*Maps 2*/
 .desayuno {
   margin-top: 20px;
   margin-bottom: 0px;
-  background-color: #CEE5D0;
+  background-color: #F6E7D8;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -440,28 +461,40 @@
 
   /*Main-Cakes & Pies*/
   .encabezado {
-    font-size: 22px;
+    font-size: 25px;
   }
 
-  .torta img {
-    width: 180px;
+  .torta img, .tarta img {
+    width: 250px;
+    height: 250px;
+  }
+  .torta p, .tarta p {
+    font-size: 15px;
   }
 
   .tarta img {
-    width: 180px;
+    width: 250px;
+    height: 250px;
+  }
+  .tarta p {
+    font-size: 15px;
   }
 
   /*Main-Tentaciones*/
-  .encabezado {
-    font-size: 20px;
-  }
-
   .budines img {
-    width: 180px;
+    width: 250px;
+    height: 250px;
+  }
+  .budines p {
+    font-size: 15px;
   }
 
   .alfajor img {
-    width: 180px;
+    width: 250px;
+    height: 250px;
+  }
+  .alfajor p {
+    font-size: 15px;
   }
 
   /*Main-Desayunos*/
@@ -565,25 +598,37 @@
     font-size: 30px;
   }
 
-  .torta img {
-    width: 210px;
+  .torta img, .tarta img {
+    width: 280px;
+    height: 280px;
+  }
+  .torta p, .tarta p {
+    font-size: 17px;
   }
 
   .tarta img {
-    width: 210px;
+    width: 280px;
+    height: 280px;
+  }
+  .tarta p {
+    font-size: 17px;
   }
 
   /*Main-Tentaciones*/
-  .encabezado {
-    font-size: 30px;
-  }
-
   .budines img {
-    width: 210px;
+    width: 280px;
+    height: 280px;
+  }
+  .budines p {
+    font-size: 17px;
   }
 
   .alfajor img {
-    width: 210px;
+    width: 280px;
+    height: 280px;
+  }
+  .alfajor p {
+    font-size: 17px;
   }
 
   /*Main-Desayunos*/
@@ -687,25 +732,37 @@
     font-size: 35px;
   }
 
-  .torta img {
-    width: 250px;
+  .torta img, .tarta img {
+    width: 310px;
+    height: 310px;
+  }
+  .torta p, .tarta p {
+    font-size: 20px;
   }
 
   .tarta img {
-    width: 250px;
+    width: 310px;
+    height: 310px;
+  }
+  .tarta p {
+    font-size: 20px;
   }
 
   /*Main-Tentaciones*/
-  .encabezado {
-    font-size: 35px;
-  }
-
   .budines img {
-    width: 250px;
+    width: 310px;
+    height: 310px;
+  }
+  .budines p {
+    font-size: 20px;
   }
 
   .alfajor img {
-    width: 250px;
+    width: 310px;
+    height: 310px;
+  }
+  .alfajor p {
+    font-size: 20px;
   }
 
   /*Main-Desayunos*/
@@ -774,7 +831,7 @@ a {
 }
 
 p {
-  color: #FF7878;
+  color: #F68989;
   font-family: "Lato", sans-serif;
 }
 
