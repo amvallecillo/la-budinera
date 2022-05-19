@@ -1,13 +1,14 @@
+//Declaración de Varables Globales
+$font-family:'poppins',Georgia, 'Times New Roman', Times, serif;
+
 //Import
-@import "headerfooter";
 @import "colores";
+@import "headerfooter";
 @import "Inicio";
-@import "framework";
 @import "contenidos";
 @import "mediaqueries";
 
 
-//Declaración de Varables Globales
 //Anidacion o nesting
 *{
     margin: 0;
@@ -27,14 +28,8 @@ a{
 }
 p{
     color:$color-parrafo;
-    font-family: 'Lato', sans-serif;
+    font-family:$font-family
 }
-
-
-
-/*Flexbox*/
-
-
 
 /*Contacto*/
 .solicitud{
