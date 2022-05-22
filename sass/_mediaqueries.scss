@@ -26,6 +26,7 @@
     .header__instagram{
         width: 20px;
         height: 20px;
+        transform: translateX(0px);
     }
     /////////*Main-INICIO-<600px**/////////////////
     /*Main-INICIO-<600px**/
@@ -132,7 +133,7 @@
     //////////*Main-Desayunos-<600px*//////////////////
     /*Main-Desayunos-<600px*/
     .desayuno {
-        p{font-size: 10px;
+        p{font-size: 8px;
         }
         img{width: 250px;
             height: 200px;
@@ -157,21 +158,29 @@
     }
     ////////////*Footer-<600px*/////////////////////////
     /*Footer-<600px*/
+    .footer__1{
+        margin-left: 0px;
+    }
     .footer__texto{
-        font-size: 15px;
+        font-size: 8px;
     }
     .footer__contacto{
-        font-size: 15px;
+        font-size: 8px;
     }
     .footer__textcontacto{
-        font-size: 10px;
+        font-size: 7px;
     }
     .footer__texto2{
-        font-size: 15px;
+        font-size: 8px;
     }
     .footer__logo{
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    .footer__instagram{
+        width: 15px;
+        height: 15px;
     }
 }
 @media (min-width: 601px) and (max-width:900px){

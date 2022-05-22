@@ -73,12 +73,17 @@ $tamaño-logo:100px;
     background-color: $color-footer;
     width: auto;
     height: auto;
-    padding-left: 10px;
+    padding-left: 5px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
 }
 .footer__1{
     grid-column: 1/3;
+    margin-left: 30px;
+}
+.footer__logo{
+    width: $tamaño-logo;
+    height: $tamaño-logo;
 }
 .footer__texto{
     font-family:$font-family;
@@ -105,6 +110,7 @@ $tamaño-logo:100px;
 }
 .footer__3{
     grid-column: 7/9;
+    margin-left: 10px;
 }
 .footer__texto2{
     font-family:$font-family;
@@ -112,12 +118,10 @@ $tamaño-logo:100px;
     font-size: 20px;
     color: black;
 }
-.footer__logo{
-    width: $tamaño-logo;
-    height: $tamaño-logo;
-    margin-left: 30px;
-}
+
 .footer__instagram{
+    display: flex;
+    justify-content:center;
     width: 20px;
     height: 20px;
 }
