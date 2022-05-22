@@ -432,8 +432,29 @@
   margin-left: 10px;
 }
 
+/*Contacto*/
+.solicitud {
+  background-color: #F6E7D8;
+}
+
+.solicitud-titulo {
+  color: #874356;
+  display: flex;
+  justify-content: center;
+  animation-name: backInRight;
+  animation-duration: 2s;
+}
+
+.solicitud-subtitulo {
+  margin-top: 10px;
+  color: #874356;
+}
+
+.email:invalid {
+  background-color: #C65D7B;
+}
+
 @media (max-width: 600px) {
-  /*Header*/
   .header__naveagacion {
     position: relative;
   }
@@ -457,15 +478,15 @@
   }
 
   #encabezado {
-    font-size: 25px;
+    font-size: 28px;
     grid-column: 3/6;
   }
 
   .header__instagram {
-    display: none;
+    width: 20px;
+    height: 20px;
   }
 
-  /*Main-INICIO*/
   .titulo-animado {
     font-size: 18px;
   }
@@ -538,7 +559,6 @@
     margin-top: 0px;
   }
 
-  /*Main-Cakes & Pies*/
   .encabezado {
     font-size: 25px;
   }
@@ -559,7 +579,6 @@
     font-size: 15px;
   }
 
-  /*Main-Tentaciones*/
   .budines img {
     width: 250px;
     height: 250px;
@@ -576,7 +595,6 @@
     font-size: 15px;
   }
 
-  /*Main-Desayunos*/
   .desayuno p {
     font-size: 10px;
   }
@@ -589,20 +607,24 @@
     font-size: 15px;
   }
 
-  /*Main-Contacto*/
   .solicitud-titulo {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .solicitud-subtitulo {
+    font-size: 15px;
   }
 
   .encuadre label {
     font-size: 12px;
   }
-
-  .encuadre h4 {
-    font-size: 16px;
+  .encuadre input {
+    font-size: 12px;
+  }
+  .encuadre option {
+    font-size: 12px;
   }
 
-  /*Footer*/
   .footer__texto {
     font-size: 15px;
   }
@@ -625,7 +647,6 @@
   }
 }
 @media (min-width: 601px) and (max-width: 900px) {
-  /*Header*/
   .header__naveagacion {
     position: relative;
   }
@@ -653,7 +674,6 @@
     grid-column: 3/6;
   }
 
-  /*Main-INICIO*/
   .titulo-animado {
     font-size: 22px;
   }
@@ -726,7 +746,6 @@
     margin-top: 5px;
   }
 
-  /*Main-Cakes & Pies*/
   .encabezado {
     font-size: 30px;
   }
@@ -747,7 +766,6 @@
     font-size: 17px;
   }
 
-  /*Main-Tentaciones*/
   .budines img {
     width: 280px;
     height: 280px;
@@ -764,7 +782,6 @@
     font-size: 17px;
   }
 
-  /*Main-Desayunos*/
   .desayuno p {
     font-size: 15px;
   }
@@ -777,20 +794,24 @@
     font-size: 20px;
   }
 
-  /*Main-Contacto*/
   .solicitud-titulo {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .solicitud-subtitulo {
+    font-size: 17px;
   }
 
   .encuadre label {
-    font-size: 14px;
+    font-size: 15px;
+  }
+  .encuadre input {
+    font-size: 15px;
+  }
+  .encuadre option {
+    font-size: 15px;
   }
 
-  .encuadre h4 {
-    font-size: 18px;
-  }
-
-  /*Footer*/
   .footer__texto {
     font-size: 18px;
   }
@@ -813,7 +834,6 @@
   }
 }
 @media (min-width: 901px) and (max-width: 1024px) {
-  /*Header*/
   .header__naveagacion {
     position: relative;
   }
@@ -841,7 +861,6 @@
     grid-column: 4/7;
   }
 
-  /*Main-INICIO*/
   .titulo-animado {
     font-size: 25px;
   }
@@ -867,7 +886,6 @@
     margin-top: 10px;
   }
 
-  /*Main-Cakes & Pies*/
   .encabezado {
     font-size: 35px;
   }
@@ -888,7 +906,6 @@
     font-size: 20px;
   }
 
-  /*Main-Tentaciones*/
   .budines img {
     width: 310px;
     height: 310px;
@@ -905,7 +922,6 @@
     font-size: 20px;
   }
 
-  /*Main-Desayunos*/
   .desayuno p {
     font-size: 15px;
   }
@@ -918,7 +934,24 @@
     font-size: 20px;
   }
 
-  /*Footer*/
+  .solicitud-titulo {
+    font-size: 30px;
+  }
+
+  .solicitud-subtitulo {
+    font-size: 25px;
+  }
+
+  .encuadre label {
+    font-size: 18px;
+  }
+  .encuadre input {
+    font-size: 18px;
+  }
+  .encuadre option {
+    font-size: 18px;
+  }
+
   .footer__texto {
     font-size: 18px;
   }
@@ -938,19 +971,6 @@
   .footer__logo {
     width: 80px;
     height: 80px;
-  }
-
-  /*Main-Contacto*/
-  .solicitud-titulo {
-    font-size: 24px;
-  }
-
-  .encuadre label {
-    font-size: 16px;
-  }
-
-  .encuadre h4 {
-    font-size: 20px;
   }
 }
 * {
@@ -974,26 +994,6 @@ a {
 p {
   color: #F68989;
   font-family: "poppins", Georgia, "Times New Roman", Times, serif;
-}
-
-/*Contacto*/
-.solicitud {
-  margin-left: 20px;
-}
-
-.solicitud-titulo {
-  display: flex;
-  justify-content: center;
-}
-
-.encuadre {
-  margin-left: 0px;
-  display: flex;
-  justify-content: stretch;
-}
-
-.email:invalid {
-  background-color: #FFF89A;
 }
 
 /*# sourceMappingURL=indexcss.css.map */

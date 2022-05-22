@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-    /*Header*/
+    //////////*Header-<600px*//////////////////////
     .header__naveagacion{
         position: relative;
     }
@@ -19,13 +19,14 @@
         display: none;
     }
     #encabezado{
-        font-size: 25px;
+        font-size: 28px;
         grid-column: 3/6;
     }
     .header__instagram{
-        display: none;
+        width: 20px;
+        height: 20px;
     }
-    /*Main-INICIO*/
+    /////////*Main-INICIO-<600px**/////////////////
     .titulo-animado{
         font-size: 18px;
     }
@@ -83,7 +84,7 @@
     .boton{
         margin-top: 0px;
     }
-    /*Main-Cakes & Pies*/
+    ////////////////*Main-Cakes & Pies-<600px**/////////////
     .encabezado{
         font-size: 25px;
     }
@@ -105,7 +106,7 @@
             font-size: 15px;
         }
     }
-    /*Main-Tentaciones*/
+    /////////////*Main-Tentaciones-<600px*////////////////
     .budines {
         img{
             width: 250px;
@@ -124,7 +125,7 @@
             font-size: 15px;
         }
     }
-    /*Main-Desayunos*/
+    //////////*Main-Desayunos-<600px**//////////////////
     .desayuno {
         p{font-size: 10px;
         }
@@ -135,19 +136,20 @@
     .desayuno-texto{
         h4{font-size: 15px;}
     }
-        
 
-    /*Main-Contacto*/
+    ///////////*Main-Contacto-<600px**/////////////////
     .solicitud-titulo{
-        font-size: 20px;
+        font-size: 18px;
     }
-    .encuadre label{
-        font-size: 12px;
+    .solicitud-subtitulo{
+        font-size: 15px;
     }
-    .encuadre h4{
-        font-size: 16px;
+    .encuadre{
+        label{font-size: 12px;}
+        input{font-size: 12px;}
+        option{font-size: 12px;}
     }
-    /*Footer*/
+    ////////////*Footer-<600px*/////////////////////////
     .footer__texto{
         font-size: 15px;
     }
@@ -166,7 +168,7 @@
     }
 }
 @media (min-width: 601px) and (max-width:900px){
-    /*Header*/
+    ///////////////*Header-600px-900px*////////////////
     .header__naveagacion{
         position: relative;
     }
@@ -189,7 +191,7 @@
         font-size: 35px;
         grid-column: 3/6;
     }
-    /*Main-INICIO*/
+    //////////////*Main-INICIO-600px-900px*////////////
     .titulo-animado{
         font-size: 22px;
     }
@@ -247,7 +249,7 @@
     .boton{
         margin-top: 5px;
     }
-    /*Main-Cakes & Pies*/
+    //////////*Main-Cakes & Pies-600px-900px*////////////////
     .encabezado{
         font-size: 30px;
     }
@@ -269,7 +271,7 @@
             font-size: 17px;
         }
     }
-    /*Main-Tentaciones*/
+    /////////////*Main-Tentaciones-600px-900px*////////////////
     .budines {
         img{
             width: 280px;
@@ -288,7 +290,7 @@
             font-size: 17px;
         }
     }
-    /*Main-Desayunos*/
+    ///////////////*Main-Desayunos-600px-900px*////////////////
     .desayuno {
         p{font-size: 15px;
         }
@@ -299,17 +301,21 @@
     .desayuno-texto{
         h4{font-size: 20px;}
     }
-    /*Main-Contacto*/
+
+    ///////////*Main-Contacto-600px-900px*/////////////////
     .solicitud-titulo{
-        font-size: 22px;
+        font-size: 20px;
     }
-    .encuadre label{
-        font-size: 14px;
+    .solicitud-subtitulo{
+        font-size: 17px;
     }
-    .encuadre h4{
-        font-size: 18px;
+    .encuadre{
+        label{font-size: 15px;}
+        input{font-size: 15px;}
+        option{font-size: 15px;}
     }
-    /*Footer*/
+
+    ///////////////*Footer-600px-900px*/////////////////////
     .footer__texto{
         font-size: 18px;
     }
@@ -328,7 +334,7 @@
     }
 }
 @media (min-width: 901px) and (max-width:1024px){
-    /*Header*/
+    ////////////*Header-900px-1024px*/////////////////
     .header__naveagacion{
         position: relative;
     }
@@ -351,7 +357,7 @@
         font-size: 35px;
         grid-column: 4/7;
     }
-    /*Main-INICIO*/
+    ///////////*Main-INICIO-900px-1024px*////////////////
     .titulo-animado{
     font-size: 25px;
     }
@@ -398,8 +404,7 @@
     .boton{
         margin-top: 10px;
     }
-
-    /*Main-Cakes & Pies*/
+    ///////////////*Main-Cakes & Pies-900px-1024px*////////////////
     .encabezado{
     font-size: 35px;
     }
@@ -421,7 +426,7 @@
             font-size: 20px;
         }
     }
-    /*Main-Tentaciones*/
+    //////////////*Main-Tentaciones-900px-1024px*/////////////////
     .budines {
         img{
             width: 310px;
@@ -440,7 +445,7 @@
             font-size: 20px;
         }
     }
-    /*Main-Desayunos*/
+    ////////////////*Main-Desayunos-900px-1024px*///////////////
     .desayuno {
         p{font-size: 15px;
         }
@@ -451,7 +456,20 @@
     .desayuno-texto{
         h4{font-size: 20px;}
     }
-    /*Footer*/
+    ///////////*Main-Contacto-900px-1024px*/////////////////
+    .solicitud-titulo{
+        font-size: 30px;
+    }
+    .solicitud-subtitulo{
+        font-size: 25px;
+    }
+    .encuadre{
+        label{font-size: 18px;}
+        input{font-size: 18px;}
+        option{font-size: 18px;}
+    }
+
+    ////////////////*Footer-900px-1024px*//////////////////
     .footer__texto{
         font-size: 18px;
     }
@@ -467,15 +485,5 @@
     .footer__logo{
         width: 80px;
         height: 80px;
-    }
-    /*Main-Contacto*/
-    .solicitud-titulo{
-        font-size: 24px;
-    }
-    .encuadre label{
-        font-size: 16px;
-    }
-    .encuadre h4{
-        font-size: 20px;
     }
 }

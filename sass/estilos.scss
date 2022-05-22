@@ -6,6 +6,7 @@ $font-family:'poppins',Georgia, 'Times New Roman', Times, serif;
 @import "headerfooter";
 @import "Inicio";
 @import "contenidos";
+@import "contacto";
 @import "mediaqueries";
 
 
@@ -29,21 +30,4 @@ a{
 p{
     color:$color-parrafo;
     font-family:$font-family
-}
-
-/*Contacto*/
-.solicitud{
-    margin-left: 20px;
-}
-.solicitud-titulo{
-    display: flex;
-    justify-content: center;
-}
-.encuadre{
-    margin-left: 0px;
-    display: flex;
-    justify-content: stretch;
-}
-.email:invalid{
-    background-color: #FFF89A;
 }
