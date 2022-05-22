@@ -1,5 +1,6 @@
 @media (max-width: 600px) {
     //////////*Header-<600px*//////////////////////
+    /*Header-<600px*/
     .header__naveagacion{
         position: relative;
     }
@@ -27,6 +28,7 @@
         height: 20px;
     }
     /////////*Main-INICIO-<600px**/////////////////
+    /*Main-INICIO-<600px**/
     .titulo-animado{
         font-size: 18px;
     }
@@ -85,6 +87,7 @@
         margin-top: 0px;
     }
     ////////////////*Main-Cakes & Pies-<600px**/////////////
+    /*Main-Cakes & Pies-<600px**/
     .encabezado{
         font-size: 25px;
     }
@@ -107,6 +110,7 @@
         }
     }
     /////////////*Main-Tentaciones-<600px*////////////////
+    /*Main-Tentaciones-<600px*/
     .budines {
         img{
             width: 250px;
@@ -125,7 +129,8 @@
             font-size: 15px;
         }
     }
-    //////////*Main-Desayunos-<600px**//////////////////
+    //////////*Main-Desayunos-<600px*//////////////////
+    /*Main-Desayunos-<600px*/
     .desayuno {
         p{font-size: 10px;
         }
@@ -137,7 +142,8 @@
         h4{font-size: 15px;}
     }
 
-    ///////////*Main-Contacto-<600px**/////////////////
+    ///////////*Main-Contacto-<600px*/////////////////
+    /*Main-Contacto-<600px*/
     .solicitud-titulo{
         font-size: 18px;
     }
@@ -150,6 +156,7 @@
         option{font-size: 12px;}
     }
     ////////////*Footer-<600px*/////////////////////////
+    /*Footer-<600px*/
     .footer__texto{
         font-size: 15px;
     }
@@ -168,7 +175,9 @@
     }
 }
 @media (min-width: 601px) and (max-width:900px){
+
     ///////////////*Header-600px-900px*////////////////
+    /*Header-600px-900px*/
     .header__naveagacion{
         position: relative;
     }
@@ -192,6 +201,7 @@
         grid-column: 3/6;
     }
     //////////////*Main-INICIO-600px-900px*////////////
+    /*Main-INICIO-600px-900px*/
     .titulo-animado{
         font-size: 22px;
     }
@@ -250,6 +260,7 @@
         margin-top: 5px;
     }
     //////////*Main-Cakes & Pies-600px-900px*////////////////
+    /*Main-Cakes & Pies-600px-900px*/
     .encabezado{
         font-size: 30px;
     }
@@ -272,6 +283,7 @@
         }
     }
     /////////////*Main-Tentaciones-600px-900px*////////////////
+    /*Main-Tentaciones-600px-900px*/
     .budines {
         img{
             width: 280px;
@@ -291,6 +303,7 @@
         }
     }
     ///////////////*Main-Desayunos-600px-900px*////////////////
+    /*Main-Desayunos-600px-900px*/
     .desayuno {
         p{font-size: 15px;
         }
@@ -303,6 +316,7 @@
     }
 
     ///////////*Main-Contacto-600px-900px*/////////////////
+    /*Main-Contacto-600px-900px*/
     .solicitud-titulo{
         font-size: 20px;
     }
@@ -316,6 +330,7 @@
     }
 
     ///////////////*Footer-600px-900px*/////////////////////
+    /*Footer-600px-900px*/
     .footer__texto{
         font-size: 18px;
     }
@@ -334,7 +349,9 @@
     }
 }
 @media (min-width: 901px) and (max-width:1024px){
+
     ////////////*Header-900px-1024px*/////////////////
+    /*Header-900px-1024px*/
     .header__naveagacion{
         position: relative;
     }
@@ -358,6 +375,7 @@
         grid-column: 4/7;
     }
     ///////////*Main-INICIO-900px-1024px*////////////////
+    /*Main-INICIO-900px-1024px*/
     .titulo-animado{
     font-size: 25px;
     }
@@ -405,6 +423,7 @@
         margin-top: 10px;
     }
     ///////////////*Main-Cakes & Pies-900px-1024px*////////////////
+    /*Main-Cakes & Pies-900px-1024px*/
     .encabezado{
     font-size: 35px;
     }
@@ -427,6 +446,7 @@
         }
     }
     //////////////*Main-Tentaciones-900px-1024px*/////////////////
+    /*Main-Tentaciones-900px-1024px*/
     .budines {
         img{
             width: 310px;
@@ -446,6 +466,7 @@
         }
     }
     ////////////////*Main-Desayunos-900px-1024px*///////////////
+    /*Main-Desayunos-900px-1024px*/
     .desayuno {
         p{font-size: 15px;
         }
@@ -457,6 +478,7 @@
         h4{font-size: 20px;}
     }
     ///////////*Main-Contacto-900px-1024px*/////////////////
+    /*Main-Contacto-900px-1024px*/
     .solicitud-titulo{
         font-size: 30px;
     }
@@ -470,6 +492,7 @@
     }
 
     ////////////////*Footer-900px-1024px*//////////////////
+    /*Footer-900px-1024px*/
     .footer__texto{
         font-size: 18px;
     }

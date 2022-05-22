@@ -3,8 +3,8 @@ $ancho-tarjeta: 350px;
 $alto-tarjeta: 350px;
 $borderadio-tarjeta: 10px;
 
+////////////*Inicio*///////////////
 /*Inicio*/
-/*Metodologia BEM*/
 .fondo{
     background-color: $color-de-fondo;
     border: solid 1px $color-de-fondo;
@@ -16,6 +16,7 @@ $borderadio-tarjeta: 10px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
+/*Animacion*/
 .titulo-animado{
     animation-name:lightSpeedInLeft;
     animation-duration: 3s;
@@ -52,7 +53,7 @@ $borderadio-tarjeta: 10px;
     margin-right: 5px;
 }
 
-/*Bloque 1*/
+/*Bloque de imganes*/
 .demostracion__contencion{
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +92,8 @@ $borderadio-tarjeta: 10px;
 .demostracion__imagen8{
     @extend .demostracion__imagen1;
 }
+
+/*Botones*/
 .botones{
     display: flex;
     justify-content:space-around;
@@ -110,8 +113,7 @@ $borderadio-tarjeta: 10px;
         background-color: #F3F0D7;
     }
 }
-/*Bloque 2*/
-/*Transition and Transform*/
+
 .boton{
     margin-top: 20px;
     margin-right: 20px;
@@ -120,6 +122,7 @@ $borderadio-tarjeta: 10px;
     justify-content: center;
     padding: 2px 2px;
 }
+/*Transition and Transform*/
 .boton2{
     color: black;
     font-size: 16px;

@@ -14,15 +14,15 @@ $borde-cards: solid 1px black;
     animation-duration: 2s;
 }
 
+/////////////*Cakes & Pies*///////////
 /*Cakes & Pies*/
-
 /*Mixins con Parametros*/
 @mixin ubicacion ($display,$justify-content,$flex-wrap) {
     display: $display;
     justify-content: $justify-content;
     flex-wrap: $flex-wrap;
 }
-
+//*Bloque de Imagenes*//
 .fondo-torta{
     background-color: $color-de-fondo;
 }
@@ -73,8 +73,8 @@ $borde-cards: solid 1px black;
     @extend .torta-texto;
 }
 
+///////////////////*Tentaciones*//////////////////////////////
 /*Tentaciones*/
-
 /*Mixins con Parametros*/
 .fondo-budines{
 background-color: $color-de-fondo;
@@ -152,6 +152,7 @@ $caracterista-Alfajor:(
     }
 }
 
+///////////////////*Desayunos*/////////////////
 /*Desayunos*/
 .fondo-desayuno{
     background-color:$color-de-fondo;
